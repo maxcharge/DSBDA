@@ -1,0 +1,5 @@
+hadoop fs -put filename
+hadoop jar WordCount.jar package.class inputfile outputfolder
+hadoop fs -rmr filename
+hadoop fs -cat filename
+hadoop fs -ls filename
